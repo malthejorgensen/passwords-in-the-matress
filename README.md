@@ -1,22 +1,22 @@
-Passwords in the matress
-========================
+Passwords in the mattress
+=========================
 Password manager written in Elm
 
 To do
 -----
-[ ] User should be able to add passwords
-[ ] User should be able to change passwords
-[ ] User should be able to delete passwords
-[ ] Save encrypted password JSON object in LocalStorage
-[ ] Never show password before user requests it
-[ ] When password is not shown, it should be encrypted (this effectively means that passwords are double encrypted)
-    such that passwords aren't plaintext in memory, until user requests to view the password.  
-    (Note: The passwords will be able to be decrypted given that the attacker locates the key in memory)
-    
-[ ] Send encrypted password JSON object to specified REST endpoint
-[ ] Use [JSON Schema](http://json-schema.org/) to describe password file format.
-[ ] User should be able to add a note to each password (in Markdown)
-[ ] The interface should be usable on a smartphone
+- [ ] User should be able to add passwords
+- [ ] User should be able to change passwords
+- [ ] User should be able to delete passwords
+- [ ] Save encrypted password JSON object in LocalStorage
+- [ ] Never show password before user requests it
+- [ ] When password is not shown, it should be encrypted (this effectively means that passwords are double encrypted)
+-     such that passwords aren't plaintext in memory, until user requests to view the password.  
+-     (Note: The passwords will be able to be decrypted given that the attacker locates the key in memory)
+-     
+- [ ] Send encrypted password JSON object to specified REST endpoint
+- [ ] Use [JSON Schema](http://json-schema.org/) to describe password file format.
+- [ ] User should be able to add a note to each password (in Markdown)
+- [ ] The interface should be usable on a smartphone
 
 
 Doubly encrypted password
