@@ -16,6 +16,8 @@ To do
 - [ ] Use [JSON Schema](http://json-schema.org/) to describe password file format.
 - [ ] User should be able to add a note to each password (in Markdown)
 - [ ] The interface should be usable on a smartphone
+- [ ] (in the non-near future) Ensure that pitm lives up to the attacks described in
+       <https://www.cs.ox.ac.uk/files/6487/pwvault.pdf>
 
 
 Doubly encrypted password
